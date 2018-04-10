@@ -1,0 +1,20 @@
+<idea-plugin>
+  <id>org.gdlplugin</id>
+  <name>Gdl</name>
+  <version>0.1</version>
+  <vendor email="kaimarshland@gmail.com" url="https://www.kaimarshland.com">Kai Marshland</vendor>
+  <description>
+      Enter short description for your plugin here.&lt;br&gt;
+      &lt;em&gt;most HTML tags may be used&lt;/em&gt;
+    </description>
+  <change-notes>
+      Add change notes here.&lt;br&gt;
+      &lt;em&gt;most HTML tags may be used&lt;/em&gt;</change-notes>
+  <idea-version since-build="145.0"/>
+  <extensions defaultExtensionNs="com.intellij">
+    <fileTypeFactory implementation="org.gdlplugin.GdlFileTypeFactory"/>
+    <lang.parserDefinition language="Gdl" implementationClass="org.gdlplugin.GdlParserDefinition"/>
+    <lang.syntaxHighlighterFactory language="Gdl" implementationClass="org.gdlplugin.GdlSyntaxHighlighterFactory"/>
+  </extensions>
+  <actions/>
+</idea-plugin>

@@ -1,0 +1,32 @@
+{
+  parserClass="org.gdlplugin.parser.GdlParser"
+
+  extends="com.intellij.extapi.psi.ASTWrapperPsiElement"
+
+  psiClassPrefix="Gdl"
+  psiImplClassSuffix="Impl"
+  psiPackage="org.gdlplugin.psi"
+  psiImplPackage="org.gdlplugin.psi.impl"
+
+  elementTypeHolderClass="org.gdlplugin.psi.GdlTypes"
+  elementTypeClass="org.gdlplugin.psi.GdlElementType"
+  tokenTypeClass="org.gdlplugin.psi.GdlTokenType"
+}
+
+gdlFile ::= item_*
+
+private item_ ::= property
+
+property ::= (KEY|SEPARATOR|CONSTANT|COMMENT|CRLF|VARIABLE|OPERATOR|FUNCTION)
+
+//gdlFile ::= (property|COMMENT)*
+//
+//property ::= (KEY SEPARATOR VALUE?)|KEY {
+//    pin=3
+//    recoverWhile="recover_property"
+//    mixin="com.simpleplugin.psi.impl.SimpleNamedElementImpl"
+//    implements="com.simpleplugin.psi.SimpleNamedElement"
+//    methods=[getKey getValue getName setName getNameIdentifier getPresentation]
+//}
+//
+//private recover_property ::= !(KEY|SEPARATOR|COMMENT)
