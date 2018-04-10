@@ -4,16 +4,9 @@
     <version>1.0</version>
     <vendor email="kaimarshland@gmail.com" url="https://www.kaimarshland.com">Kai Marshland</vendor>
 
-    <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
-    ]]></description>
+    <description>This project seeks to integrate GDL with IntelliJ. Currently, it only provides syntax highlighting, but it could easily become the basis of something more powerful.</description>
 
-    <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
-    ]]>
-    </change-notes>
+    <change-notes>Initial publication of plugin</change-notes>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
     <idea-version since-build="145.0"/>

@@ -12,6 +12,8 @@ plugins {
 group 'org.gdlplugin'
 version '0.1'
 
+apply plugin: 'idea'
+apply plugin: 'org.jetbrains.intellij'
 apply plugin: 'java'
 
 sourceCompatibility = 1.8
@@ -27,13 +29,6 @@ dependencies {
 apply plugin: 'org.jetbrains.intellij'
 
 sourceSets {
-//    main {
-//        java {
-//            srcDirs 'src'
-//        }
-//    }
-//
-//    srcDirs 'gen'
     main.java.srcDirs += 'src/main/../../gen'
 }
 
@@ -45,6 +40,5 @@ intellij {
 }
 patchPluginXml {
     changeNotes """
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>"""
+      Initial publication"""
 }

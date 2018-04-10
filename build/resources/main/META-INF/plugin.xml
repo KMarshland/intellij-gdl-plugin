@@ -3,13 +3,9 @@
   <name>Gdl</name>
   <version>0.1</version>
   <vendor email="kaimarshland@gmail.com" url="https://www.kaimarshland.com">Kai Marshland</vendor>
-  <description>
-      Enter short description for your plugin here.&lt;br&gt;
-      &lt;em&gt;most HTML tags may be used&lt;/em&gt;
-    </description>
+  <description>This project seeks to integrate GDL with IntelliJ. Currently, it only provides syntax highlighting, but it could easily become the basis of something more powerful.</description>
   <change-notes>
-      Add change notes here.&lt;br&gt;
-      &lt;em&gt;most HTML tags may be used&lt;/em&gt;</change-notes>
+      Initial publication</change-notes>
   <idea-version since-build="145.0"/>
   <extensions defaultExtensionNs="com.intellij">
     <fileTypeFactory implementation="org.gdlplugin.GdlFileTypeFactory"/>
