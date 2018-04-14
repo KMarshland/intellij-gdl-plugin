@@ -1,11 +1,11 @@
 <idea-plugin>
   <id>org.gdlplugin</id>
   <name>Gdl</name>
-  <version>0.1</version>
+  <version>0.2.0</version>
   <vendor email="kaimarshland@gmail.com" url="https://www.kaimarshland.com">Kai Marshland</vendor>
   <description>This project seeks to integrate GDL with IntelliJ. Currently, it only provides syntax highlighting, but it could easily become the basis of something more powerful.</description>
   <change-notes>
-      Initial publication</change-notes>
+      Updated default file extension</change-notes>
   <idea-version since-build="145.0"/>
   <extensions defaultExtensionNs="com.intellij">
     <fileTypeFactory implementation="org.gdlplugin.GdlFileTypeFactory"/>

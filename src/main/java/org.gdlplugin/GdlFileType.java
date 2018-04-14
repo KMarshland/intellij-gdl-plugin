@@ -29,7 +29,7 @@ public class GdlFileType extends LanguageFileType {
     @NotNull
     @Override
     public String getDefaultExtension() {
-        return "gdl";
+        return "kif";
     }
 
     @Nullable

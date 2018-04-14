@@ -20,7 +20,7 @@ CRLF=\R
 WHITE_SPACE=[\ \n\t\f]
 END_OF_LINE_COMMENT=(";")[^\r\n]*
 OPERATOR=(<=|[)])
-KEYWORD=(role|base|input|init|true|does|next|legal|goal|terminal)
+KEYWORD=(role|base|input|init|true|does|next|legal|goal|terminal|distinct|not)
 VARIABLE_CHARACTER=(\?\w+)
 FUNCTION_CHARACTER=\w+
 

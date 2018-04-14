@@ -10,7 +10,7 @@ plugins {
 }
 
 group 'org.gdlplugin'
-version '0.1'
+version '0.2.0'
 
 apply plugin: 'idea'
 apply plugin: 'org.jetbrains.intellij'
@@ -40,5 +40,5 @@ intellij {
 }
 patchPluginXml {
     changeNotes """
-      Initial publication"""
+      Updated default file extension"""
 }
